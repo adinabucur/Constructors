@@ -17,8 +17,11 @@ public class Main {
 //        System.out.println(bobsAccount.getAccountNumber());
 //        System.out.println(bobsAccount.getBalance());
 //
-//        BankAccount timsAccount = new BankAccount("Tim", "tim@email.com", "12345");
-//        System.out.println(timsAccount.getAccountNumber() + " name " + timsAccount.getCustomerName());
+        BankAccount timsAccount = new BankAccount("Tim", "tim@email.com", "12345");
+        System.out.println(timsAccount.getAccountNumber() + " name " + timsAccount.getCustomerName());
+        System.out.println("current balance is " + timsAccount.getBalance());
+        timsAccount.withdrawal(100.55);
+
 
 //        VipCustomer person1 = new VipCustomer();
 //        System.out.println(person1.getName());
@@ -30,10 +33,10 @@ public class Main {
 //        System.out.println(person2.getCreditLimit());
 //        System.out.println(person2.getEmailAddress());
 
-        VipCustomer person3 = new VipCustomer("Tim", 100.00, "tim@email.com");
-        System.out.println(person3.getName());
-        System.out.println(person3.getEmailAddress());
-        System.out.println(person3.getCreditLimit());
+//        VipCustomer person3 = new VipCustomer("Tim", 100.00, "tim@email.com");
+//        System.out.println(person3.getName());
+//        System.out.println(person3.getEmailAddress());
+//        System.out.println(person3.getCreditLimit());
 
     }
 }
